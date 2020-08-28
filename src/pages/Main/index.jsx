@@ -3,14 +3,12 @@ import React from 'react';
 import data from './data';
 
 import {
-
   Nav, 
   List,
   Books,
   Header,
   Content,
   Coments,
-
 } from '../../components';
 
 
@@ -26,7 +24,8 @@ const Main = () => {
       <Coments />
       <Content data={data[1]}/> 
       <List />
-      <Books /> 
+      <Books />
+      <Content data={data[2]}/>  
     </Container>
   );
 };

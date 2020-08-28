@@ -17,23 +17,19 @@ export const Container = styled.div`
 `;
 
 export const ImgBook   = styled.div`
-  margin: auto;
+  margin:  10px auto;
   max-width: 700px;
-
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /** não deixa estourar o container */
   flex-direction: row;
   
 
   img   {
     width: 100px;
     height: auto;
-    margin: 10px 10px;
+    margin: 10px;
     border-radius: 4px;
-  }
-
-  p {
-    color: orange;
-    font-size: 0.5rem;
   }
 `;

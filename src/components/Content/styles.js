@@ -5,6 +5,12 @@ export const Container = styled.div`
   margin: 40px auto;
   text-align: start;
   line-height: 1.8;
+
+  h1{
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 `;
 
 

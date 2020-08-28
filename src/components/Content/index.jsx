@@ -11,7 +11,10 @@ export default function Content({data}) {
 
     <Container >
       {dataContent.map(content => (
-       <p key={content.id}>{content.description}</p>
+        
+       <p key={content.id}>
+         <h1>{content.title}</h1>
+        {content.description}</p>
       ))} 
      </Container>      
    
