@@ -6,23 +6,19 @@ export default function Content() {
   return (
     <Container>
         <p>
-        Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. 
-        Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. 
-        A ordem dos tratores não altera o pão duris. Leite de capivaris, leite de mula manquis sem cabeça. 
-        Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. 
-        Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. 
-        A ordem dos tratores não altera o pão duris. Leite de capivaris, leite de mula manquis sem cabeça.   
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+          text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+          not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+          software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
         
         <br />
 
         <p>
-        Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. 
-        Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. 
-        A ordem dos tratores não altera o pão duris. Leite de capivaris, leite de mula manquis sem cabeça. 
-        Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram   sadipscing et per. 
-        Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. 
-        A ordem dos tratores não altera o pão duris. Leite de capivaris, leite de mula manquis sem cabeça.   
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+          text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+          not only five centuries, but also the leap into electronic typesetting.
         </p>
 
     </Container>

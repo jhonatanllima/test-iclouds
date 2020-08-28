@@ -4,6 +4,7 @@ import {
   Header,
   Nav, 
   Content,
+  Coments,
 } from '../../components';
 
 
@@ -15,6 +16,7 @@ const Main = () => {
       <Header />
       <Nav />
       <Content />
+      <Coments />
     </Container>
   );
 };
