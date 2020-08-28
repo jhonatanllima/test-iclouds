@@ -2,7 +2,8 @@ import React from 'react';
 
 import {
   Header,
-  Nav
+  Nav, 
+  Content,
 } from '../../components';
 
 
@@ -13,6 +14,7 @@ const Main = () => {
     <Container>
       <Header />
       <Nav />
+      <Content />
     </Container>
   );
 };

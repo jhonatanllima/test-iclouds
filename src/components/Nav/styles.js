@@ -2,16 +2,24 @@ import styled from 'styled-components';
 
 export const Container = styled.nav`
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   max-width: 30px;
-  
+  position: fixed;
+  top: calc(100vh - 65%);
+
   div {
       border-bottom: 1px solid #c9c9c9;
 
         p {
-          padding: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           color: grey;
           font-weight: 800;
+          padding: 5px;
+          margin: 5px;
           }
         a {
            img{
@@ -21,13 +29,10 @@ export const Container = styled.nav`
     }
 
         a {
-          align-items: center;
-          justify-content: center;
           padding: 5px;
-          
+          margin: 5px;
            img{
               width: 20px;
-              align-self: center;
               }
           }
 
