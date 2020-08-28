@@ -6,8 +6,8 @@ export const Container = styled.nav`
   justify-content: center;
   flex-direction: column;
   max-width: 30px;
-  position: absolute;
-  top: calc(100vh - 50%);
+  position: fixed;
+  top: calc(100vh - 65%);
 
   div {
       border-bottom: 1px solid #c9c9c9;
