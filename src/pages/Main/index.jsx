@@ -8,6 +8,7 @@ import {
   Books,
   Section,
   Header,
+  Footer,
   Content,
   Coments,
 } from '../../components';
@@ -28,7 +29,8 @@ const Main = () => {
       <Books />
       <Content data={data[2]}/> 
       <Section /> 
-      <Content data={data[1]}/> 
+      <Content data={data[1]}/>
+      <Footer /> 
     </Container>
   );
 };
