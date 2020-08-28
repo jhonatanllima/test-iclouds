@@ -6,6 +6,7 @@ import {
   Nav, 
   List,
   Books,
+  Section,
   Header,
   Content,
   Coments,
@@ -25,7 +26,9 @@ const Main = () => {
       <Content data={data[1]}/> 
       <List />
       <Books />
-      <Content data={data[2]}/>  
+      <Content data={data[2]}/> 
+      <Section /> 
+      <Content data={data[1]}/> 
     </Container>
   );
 };

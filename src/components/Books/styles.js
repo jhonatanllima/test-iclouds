@@ -28,7 +28,7 @@ export const ImgBook   = styled.div`
 
   img   {
     width: 100px;
-    height: auto;
+    height: 140px;
     margin: 10px;
     border-radius: 4px;
   }

@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <Container>
       <div>
-        <a href="http://localhost:3000/" className="clap">
+        <a href="http://localhost:3000/" >
           <img src={clapGrey} alt="Curtir" />
         </a>
 
@@ -27,7 +27,7 @@ export default function Header() {
         />
       </a>
 
-      <a href="https://www.facebook.com/">
+      <a href="https://www.facebook.com/jhonyllima" >
         <img
           className="img-facebook"
           src={faceBook}
@@ -36,17 +36,17 @@ export default function Header() {
       </a>
 
       <a href="https://twitter.com/">
-        <img src={Twitter} alt="Twitter" />
+        <img src={Twitter} alt="Twitter"  />
       </a>
 
-      <a href="https://linkedin.com">
+      <a href="https://www.linkedin.com/in/jhonatan-lima-75a2a0142/" >
         <img
           src={Linkedin}
           alt="Linkedin"
         />
       </a>
 
-      <a href="https://gmail.com">
+      <a href="https://gmail.com " >
         <img src={Email} alt="E-mail" />
       </a>
         
