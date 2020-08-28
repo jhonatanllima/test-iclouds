@@ -1,5 +1,7 @@
 import React from 'react';
 
+import data from './data';
+
 import {
   Header,
   Nav, 
@@ -15,8 +17,10 @@ const Main = () => {
     <Container>
       <Header />
       <Nav />
-      <Content />
+      <Content data={data[0]}/>
+      <Content data={data[1]}/>
       <Coments />
+     <Content data={data[1]}/>  
     </Container>
   );
 };
