@@ -3,10 +3,13 @@ import React from 'react';
 import data from './data';
 
 import {
-  Header,
+
   Nav, 
+  List,
+  Header,
   Content,
   Coments,
+
 } from '../../components';
 
 
@@ -20,7 +23,8 @@ const Main = () => {
       <Content data={data[0]}/>
       <Content data={data[1]}/>
       <Coments />
-     <Content data={data[1]}/>  
+     <Content data={data[1]}/> 
+     <List /> 
     </Container>
   );
 };
