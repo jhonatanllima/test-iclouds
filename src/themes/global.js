@@ -7,15 +7,9 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
   }
-
-  *:focus {
-    outline: 0;
-  }
-
+  
   body {
     background: #fff;
-    color: #777;
-    -webkit-font-smoothing: antialiased !important;
   }
 
   body, input, button {
@@ -24,10 +18,7 @@ export default createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
+    font-weight: 400;
   }
 
-  button {
-    cursor: pointer;
-  }
 `;
