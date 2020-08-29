@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Section from './Section';
 import Content from './Content';
-import Coments from './Coments';
+import Comments from './Comments';
 
 export {
   Nav,
@@ -15,5 +15,5 @@ export {
   Header,
   Footer,
   Content,
-  Coments,
+  Comments,
 };

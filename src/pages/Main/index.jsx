@@ -10,7 +10,7 @@ import {
   Header,
   Footer,
   Content,
-  Coments,
+  Comments,
 } from '../../components';
 
 
@@ -24,7 +24,7 @@ const Main = () => {
       <Content data={data[0]}/>
       <Content data={data[1]}/>
 
-      <Coments />
+      <Comments />
 
       <Content data={data[1]}/> 
 
