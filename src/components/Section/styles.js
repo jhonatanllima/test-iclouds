@@ -51,7 +51,7 @@ export const Bottom = styled.div`
         a {
            img{
                width: 30px;
-               }
+              }
           }
     }
 

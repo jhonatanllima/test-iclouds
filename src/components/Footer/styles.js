@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.footer`
   display: flex;
   flex-direction: row;
+  position: relative;
   max-width: 700px;
   margin: auto;
 
@@ -18,12 +19,6 @@ export const Container = styled.footer`
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-
-      .navFooter{
-          display: flex;
-          flex-direction: row;
-
-         }
 
       span {
 

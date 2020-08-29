@@ -9,15 +9,16 @@ import Twitter from '../../themes/assets/twiter@2x.png';
 import Linkedin from '../../themes/assets/if-linkedin-853357@2x.png';
 import Email from '../../themes/assets/mail@2x.png';
 
-export default function Header() {
+export default function Nav({navFooter}) {
   return (
-    <Container>
+    <Container navFooter={navFooter}>
       <div>
         <a href="http://localhost:3000/" >
           <img src={clapGrey} alt="Curtir" />
+          <p>37</p>
         </a>
 
-        <p>37</p>
+        
       </div>
 
       <a href="https://web.whatsapp.com/">

@@ -23,13 +23,20 @@ const Main = () => {
       <Nav />
       <Content data={data[0]}/>
       <Content data={data[1]}/>
+
       <Coments />
+
       <Content data={data[1]}/> 
+
       <List />
       <Books />
+
       <Content data={data[2]}/> 
-      <Section /> 
+
+      <Section />
+
       <Content data={data[1]}/>
+      
       <Footer /> 
     </Container>
   );

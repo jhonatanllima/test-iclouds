@@ -19,9 +19,10 @@ export default function Footer() {
               <span key={index + 1}>{item}</span>
               ))}
             </div>
-      <div>
-        <Nav className="navFooter"/>
-      </div>
+     
+        <Nav navFooter/>
+       
+      
 
      </Container>
   );

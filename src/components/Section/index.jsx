@@ -12,6 +12,7 @@ export default function Section() {
       <Header>
 
         <h1>Design Better. Faster. Together.</h1>
+        
         <h2>
           Lorem Ipsum é simplesmente uma pequena simulação de texto da indústria
           tipográfica e de impressos, e vem sendo utilizada desde o século XVII
@@ -22,7 +23,6 @@ export default function Section() {
 
   
         <Bottom>
-
 
             <p>
               <span>
